@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: jvm-build-suite-component-icfd
     spec:
       containers:
-      - image: quay.io/rh_ee_tnevrlka/test-images:ec3a2993d4014b5583736eaeb5fe27c1
+      - image: quay.io/rh_ee_tnevrlka/test-images@sha256:d4fcaa753def92c84311efd158b92923259fe64d00a5ec29754d4d2c5f32efa1
         imagePullPolicy: Always
         livenessProbe:
           httpGet:

@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: jvm-build-suite-component-icfd
     app.kubernetes.io/part-of: jvm-build-suite-application-agdx
-  name: jvm-build-suite-componentcznk
+  name: jvm-build-suite-componenteorl
   namespace: jvm-build-iinz-tenant
 spec:
   port:
