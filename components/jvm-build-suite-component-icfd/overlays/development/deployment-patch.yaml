@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: jvm-build-suite-component-icfd
+  namespace: jvm-build-iinz-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/rh_ee_tnevrlka/test-images@sha256:d4fcaa753def92c84311efd158b92923259fe64d00a5ec29754d4d2c5f32efa1
+        name: container-image
+        resources: {}
+status: {}
